@@ -40,7 +40,7 @@ Repeat the sequence of colors in the correct order. Each round adds a new step, 
 ├── index.html
 ├── style.css
 ├── app.js
-└── README.md```
+└── README.md
 
 ---
 
