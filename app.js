@@ -6,7 +6,7 @@ let start=false;
 let level=0;
 let acceptingInput = false;
 
-document.addEventListener("keypress",function(){
+document.addEventListener("click",function(){
     if(!start){
         start=true;
         gameStart();
