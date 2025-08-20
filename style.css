@@ -33,7 +33,7 @@ h1, h3 {
 /* Colors */
 .green { background-color: green; }
 .red { background-color: red; }
-.yellow { background-color: yellow; }
+.yellow { background-color: #FFD700; }
 .blue { background-color: blue; }
 .white { background-color: white; }
 
