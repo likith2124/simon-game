@@ -36,7 +36,7 @@ Repeat the sequence of colors in the correct order. Each round adds a new step, 
 ---
 
 ## 📂 Project Structure
-```simon-game/
+simon-game/
 ├── index.html
 ├── style.css
 ├── app.js
