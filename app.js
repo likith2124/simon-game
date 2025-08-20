@@ -73,7 +73,7 @@ function gameOver(){
     body.style.backgroundColor="red";
     setTimeout(()=>{
         body.style.backgroundColor="white";
-    },100);
+    },400);
     h3.innerText=`Game Over! Your Score is ${level}\nTap anywhere to restart`;
     start=false;
     userSeq=[];
