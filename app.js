@@ -17,9 +17,8 @@ for(color of colors){
     let div=document.querySelector(`#${color}`);
     div.addEventListener("click",function(){
         if (!acceptingInput) return;
-        let colorPressed=div.getAttribute("id");
-        flash(colorPressed);
-        userSeq.push(colorPressed);
+        flash(color);
+        userSeq.push(color);
         check();
     });
 }
@@ -75,7 +74,7 @@ function gameOver(){
     setTimeout(()=>{
         body.style.backgroundColor="white";
     },100);
-    h3.innerText=`Game Over! Your Score is ${level}\nPress any key to restart`;
+    h3.innerText=`Game Over! Your Score is ${level}\nTap anywhere to restart`;
     start=false;
     userSeq=[];
     gameSeq=[];
