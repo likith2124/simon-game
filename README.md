@@ -36,3 +36,18 @@ Repeat the sequence of colors in the correct order. Each round adds a new step, 
 ---
 
 ## 📂 Project Structure
+simon-game/
+├── index.html
+├── style.css
+├── app.js
+└── README.md
+
+---
+
+## 🖥️ Run Locally
+Clone the repo and open in browser:
+
+```bash
+git clone https://github.com/likith2124/simon-game.git
+cd simon-game
+open index.html
