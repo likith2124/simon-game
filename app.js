@@ -13,7 +13,7 @@ document.addEventListener("click",function(){
     }
 });
 
-for(color of colors){
+for(let color of colors){
     let div=document.querySelector(`#${color}`);
     div.addEventListener("click",function(){
         if (!acceptingInput) return;
